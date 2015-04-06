@@ -15,6 +15,7 @@
 		17DAF5471ACE9E6200C974F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DAF5461ACE9E6200C974F5 /* Images.xcassets */; };
 		17DAF54A1ACE9E6200C974F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17DAF5481ACE9E6200C974F5 /* LaunchScreen.xib */; };
 		17DAF5561ACE9E6200C974F5 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DAF5551ACE9E6200C974F5 /* CoreDataTests.m */; };
+		17DAF5611ACEA75A00C974F5 /* Emp.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DAF5601ACEA75A00C974F5 /* Emp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		17DAF54F1ACE9E6200C974F5 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DAF5541ACE9E6200C974F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17DAF5551ACE9E6200C974F5 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		17DAF55F1ACEA75A00C974F5 /* Emp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emp.h; sourceTree = "<group>"; };
+		17DAF5601ACEA75A00C974F5 /* Emp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				17DAF5461ACE9E6200C974F5 /* Images.xcassets */,
 				17DAF5481ACE9E6200C974F5 /* LaunchScreen.xib */,
 				17DAF53D1ACE9E6200C974F5 /* CoreData.xcdatamodeld */,
+				17DAF55F1ACEA75A00C974F5 /* Emp.h */,
+				17DAF5601ACEA75A00C974F5 /* Emp.m */,
 				17DAF5361ACE9E6200C974F5 /* Supporting Files */,
 			);
 			path = CoreData;
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DAF5611ACEA75A00C974F5 /* Emp.m in Sources */,
 				17DAF53C1ACE9E6200C974F5 /* AppDelegate.m in Sources */,
 				17DAF5391ACE9E6200C974F5 /* main.m in Sources */,
 				17DAF5421ACE9E6200C974F5 /* ViewController.m in Sources */,

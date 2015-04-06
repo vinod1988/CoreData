@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *idField;
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *mobileField;
+
+- (IBAction)saveButtonAction:(id)sender;
+- (IBAction)cancelButtonAction:(id)sender;
 
 @end
 
